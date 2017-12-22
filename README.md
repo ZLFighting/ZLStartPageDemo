@@ -5,10 +5,12 @@
 启动图依然是加载的，只不过是一闪而过，这时候我想到的是拿到当前的LaunchImage图片，然后进行处理，造成一种改变了LaunchImage动画的假象。
 
 我们都知道 APP启动时加载的是LaunchImage 这张静态图。现在好多应用启动时都是动态的,并且右上角可选择跳过。截图如下:
-![](hhttps://github.com/ZLFighting/ZLStartPageDemo/blob/master/ZLStartPageDemo/截图.png)
+
+![](https://github.com/ZLFighting/ZLStartPageDemo/blob/master/ZLStartPageDemo/截图.png)
 
 
 > 思路如下:
+
 根据UIBezierPath和CAShapeLayer自定义倒计时进度条，适用于app启动的时候设置一个倒计时关闭启动页面。可以设置进度条颜色，填充颜色，进度条宽度以及点击事件等。
 
 一.设置跳过按钮
